@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is page about tables" />
+    <title>Tables</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        font-family: sans-serif;
+        padding: 10px;
+      }
+      th {
+        background-color: aliceblue;
+        color: black;
+      }
+      thead {
+        font-family: "Courier New";
+      }
+      tfoot {
+        text-align: left;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tables</h1>
+    <h2>Basic Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expensive</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
