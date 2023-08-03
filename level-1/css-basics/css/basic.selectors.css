@@ -1,0 +1,8 @@
+a[target="_blank"] {
+  color: red;
+}
+
+a[href^="https"][href*=archlinux] {
+  color: #1793d1;
+  background-color: #333333;
+}
