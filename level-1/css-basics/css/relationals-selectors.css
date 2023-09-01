@@ -1,0 +1,11 @@
+ #ref1 > p {
+    color: orange;
+}
+
+#ref1 ~ p {
+    color: red;
+}
+
+#ref1 + p {
+    color:aqua;
+}
