@@ -1,0 +1,22 @@
+p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background: #ffb7b7;
+}
+
+p::before {
+    content: "...";
+    display: block;
+}
+
+p::after {
+    content: "...";
+    display: block;
+}
