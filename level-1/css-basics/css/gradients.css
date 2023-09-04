@@ -1,0 +1,26 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#box1 {
+    background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+
+#box2 {
+    background: linear-gradient(45deg, dodgerblue, yellow);
+}
+
+ #box3 {
+    background: radial-gradient(circle, dodgerblue, yellow);
+}
+
+#box4 {
+    background: repeating-linear-gradient(45deg, dodgerblue, yellow 10%, green 20%);
+}
+
+#box5 {
+    background: repeating-radial-gradient(circle at left, dodgerblue, yellow 10%, green 20%);
+}
